@@ -1,0 +1,430 @@
+@media (max-width: 500px) {
+    body {
+        padding: 100px;
+        width: 200px;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/06/22/11/neptune-5550216_640.jpg);
+    background-size: cover;
+    position: relative;
+    height: fit-content;
+    width: 1150px;
+
+}
+
+.hover {
+    padding: 145px;
+    align-content: left;
+    justify-content: center solid 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 2px;
+    text-align: left start;
+    color: rgb(112, 224, 20);
+    margin-top: 70px;
+    margin-left: -100px;
+    font-size: 28px;
+
+}
+
+.bar {
+    text-align: center;
+    gap: 8;
+    background: transparent solid 200%;
+    cursor: pointer;
+    inset-block-start: 20px;
+    align-content: start;
+    display: flex;
+    height: 100%;
+    gap: 23%;
+    padding: 20px 5px 0;
+    color: rgb(196, 6, 31);
+    margin-top: -30px;
+
+
+    position: relative;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border: rgba(255, 255, 255, 0.2);
+    border-radius: 30px;
+    backdrop-filter: blur(200px);
+    width: 1185px;
+}
+
+.Space {
+    font-weight: bold;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px 5px 0;
+    gap: 11%;
+    color: rgb(23, 223, 83);
+    padding: 350px;
+    display: flex;
+    outline: sandybrown;
+    cursor: pointer;
+    width: 350px;
+}
+
+.Paragraph {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(23, 223, 83);
+    background: url(https://unsplash.com/photos/mars-on-a-black-background-N3BQHYOVq5E);
+    height: 8vh;
+    size: 0px;
+    text-align: left 30px;
+}
+
+.Paragraph img {
+    height: 50px;
+    width: 60px;
+    border-radius: 300px;
+}
+
+.bar div:hover,
+.bar .active {
+    border-bottom: 3px solid #fff;
+    color: rgb(5, 143, 35);
+    border-bottom: 2px solid #fff;
+}
+
+.Earth img {
+    height: 50px;
+    width: 70px;
+    border-radius: 200px;
+}
+
+.Earth img:hover{
+    -ms-zoom-animation: initial;
+}
+
+.Sun img {
+    height: 50px;
+    width: 60px;
+    border-radius: 200px;
+}
+
+.Mars img {
+    height: 50px;
+    width: 60px;
+    border-radius: 200px;
+}
+
+
+
+.Venus img {
+    height: 58px;
+    width: 85px;
+    border-radius: 800px;
+}
+
+
+.Mercury img {
+    height: 49px;
+    width:  60px;
+    border-radius: 200px;
+}
+
+.Saturn img {
+    height: 60px;
+    width: 60px;
+    border-radius: 200px;
+}
+
+.Uranus img {
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+}
+
+.Neptune img {
+    width: 60px;
+    height: 60px;
+    border-radius: 200px;
+}
+
+.marcury img {
+    height: 60px;
+    width: 60px;
+}
+
+.rotating-planet {
+    width: 100px;
+    height: 100px;
+    animation: rotatePlanet 5s linear infinite;
+}
+
+@keyframes rotatePlanet {
+    from {
+        transform: translateX(0) rotate(0deg);
+    }
+    to {
+        transform: translateX(1vw) rotate(360deg);
+    }
+}
+
+
+.More {
+    background: #fff;
+    height: 400px;
+    width: 1155px;
+    padding: 20px;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+}
+
+.More span {
+    font-size: small;
+}
+
+.bar::backdrop {
+    transform: rotate(-30deg);
+}
+
+@media (max-width: 100px) {
+    .Space {
+        width: 40px;
+        height: 50px;
+    }
+    .Paragraph {
+        width: 3px;
+        height: 3px;
+    }
+}
+
+.astronate {
+    width: 300px;
+    float: right;
+    border: 10px;
+    padding: 10px;
+    text-align: center;
+    margin-top: -500px;
+}
+
+.astronatea img {
+    width: 80%;
+    margin-top: 70px;
+}
+
+.button {
+    width: 50px;
+    background-color: aqua;
+    color: blue;
+    float: center;
+    height: 10px;
+    border-radius: 200px;
+    padding: 10px;
+    margin-top: -8px;
+    text-align: center;
+    align-items: center;
+    margin-left: 500px;
+}
+
+.button button {
+    width: 50px;
+    height: 50px;
+    border-radius: 200px;
+    padding: 6px;
+    margin-top: -11px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+}
+
+.button:hover {
+    width: 100px;
+    zoom: 200px;
+}
+
+.nave img {
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+    margin-top: -700px;
+    margin-left: 20px;
+    padding: 90px;
+    border-radius: 300px;
+} 
+
+.contnav {
+    width: 60px;
+    height: 60px;
+    border-radius: 70px;
+    margin-top: -700px;
+    margin-left: 20px;
+    padding: 90px;
+    border-radius: 300px;
+
+}
+
+.navelogo {
+    margin-top: -110px;
+    margin-left: 20px;
+    padding: 100px;
+    border-radius: 500px;
+}
+
+.nivloga img {
+    height: 70px;
+    margin-top: -1100px;
+    margin-left: 150px;
+    padding: 200px;
+    border-radius: 400px;
+
+}
+
+.nivloga img::before {
+    width: 200px;
+    height: 300px;
+    align-items: flex-end;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content p {
+    margin: 0;
+    color: #333;
+}
+
+.newweb {
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2023/07/pia06890-our-solar-system-banner-1920x640-1.jpg?resize=1200,400);
+    height: 400px;
+    width: 1200px;
+}
+
+
+.newweb p {
+    margin-top: 00px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+    padding: 80px;
+}
+
+
+@media (max-width: 400px) {
+    body {
+        padding: 100px;
+    }
+}
+.paria p {
+    font-size: 30px;
+    margin-top: -214px;
+}
+.plinet {
+    background-color: #fff;
+    height: 400px;
+    width: 1150px;
+    border-radius: 50px;
+}
+
+.plinet img {
+    width: 180px;
+    height: 200px;
+    border-radius: 40px;
+}
+
+.plinet p {
+    width: 200px;
+}
+
+.plant img {
+    float: right;
+    margin-top: -370px;
+}
+
+.plant p {
+    width: 100px;
+    float: right;
+    color: #000000;
+    margin-top: -100px;
+}
+
+.plant h1 {
+    float: right;
+    margin-top: -160px;
+    color: #000000;
+    padding: 2px;
+}
+
+.nweww img {
+    height: 600px;
+    width: 1194px;
+    margin-top: -40px;
+}
+.nweww h1 {
+    color: #fff;
+    font-size: 40px;
+    margin-top: -400px;
+}
+
+.nweww p {
+    font-size: 30px;
+    color: #fff;
+    font-size: 30px;
+}
+
+@media (max-width: 100px) {
+    body {
+        padding: 100px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    form {
+        padding: 15px;
+    }
+    input {
+        padding: 8px;
+    }
+    button {
+        padding: 8px 16px;
+    }
+    img {
+        height: 200px;
+    }
+}
+
+.pagelogin input {
+    margin-top: -700px;
+    margin: 200px;
+
+}
+
+.contner {
+    background: #fff;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+.contner p {
+    margin-top: 500px;
+}
